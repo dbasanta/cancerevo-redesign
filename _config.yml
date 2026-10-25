@@ -1,0 +1,52 @@
+# Site settings
+title: CancerEvo
+description: Mathematical modeling of cancer ecology, evolution, and treatment resistance at Moffitt Cancer Center.
+url: "https://cancerevo.org"
+baseurl: "/cancerevo-redesign"   # repository name; GitHub serves project sites under the user site's domain
+logo: /assets/images/favicon.svg
+
+# Author information
+author:
+  name: David Basanta Gutierrez
+  email: david@cancerevo.org
+  position: Senior Member/Professor
+  institution: Moffitt Cancer Center
+  department: Integrated Mathematical Oncology
+
+# Build settings
+markdown: kramdown
+permalink: pretty
+preview: true   # adds noindex and the preview banner; remove when this becomes the main site
+plugins:
+  - jekyll-seo-tag
+defaults:
+  - scope:
+      path: ""
+    values:
+      image:
+        path: /assets/images/og-cancerevo.jpg
+        width: 1200
+        height: 630
+        alt: CancerEvo — mathematical models for evolution-informed cancer treatment
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+
+# Collections for team members
+collections:
+  team:
+    output: false
+
+# Navigation
+navigation:
+  - title: Home
+    url: /
+  - title: About
+    url: /about
+  - title: Research
+    url: /research
+  - title: Team
+    url: /team
+  - title: Contact
+    url: /contact
