@@ -1,0 +1,716 @@
+# Published work of David Basanta and the CancerEvo Group, newest first.
+# Sources: ORCID 0000-0002-8527-0776 and PubMed, with metadata from Crossref.
+# preprints: earlier versions of the same paper (bioRxiv, arXiv, Research Square).
+# blog_posts: posts on cancerevo.wordpress.com or mathematical-oncology.org/blog that discuss the paper.
+# Unpublished preprints are deliberately not listed.
+
+- year: 2026
+  date: '2026-05-29'
+  title: Multifactorial sheltering in peristromal niches shapes in vivo responses of lung cancers to targeted therapies
+  authors: Desai B, Miti T, Prabhakaran S, Miroshnychenko D, Kumar P, Henry M, …, Basanta D, …, Marusyk A
+  venue: Nature Communications
+  details: 17(1):7003
+  kind: article
+  doi: 10.1038/s41467-026-73454-w
+  preprints:
+  - server: bioRxiv
+    url: https://doi.org/10.1101/2024.04.24.590626
+  - server: Research Square
+    url: https://doi.org/10.21203/rs.3.rs-6264377/v1
+- year: 2026
+  date: '2026-03-19'
+  title: Overcoming vascular niche–mediated TKI resistance in acute myeloid leukemia through miR-126 inhibition
+  authors: Froid M, Branciamore S, Chen Z, Frankhouser D, Fu YH, Ambriz JR, …, Basanta D
+  venue: npj Systems Biology and Applications
+  details: 12(1):38
+  kind: article
+  doi: 10.1038/s41540-026-00675-6
+  preprints:
+  - server: bioRxiv
+    url: https://doi.org/10.1101/2025.05.22.655592
+- year: 2026
+  date: '2026-01-26'
+  title: The future of mathematical oncology in the age of AI
+  authors: Rockne RC, Andersen M, Anderson ARA, Basanta D, Bentivegna A, Benzekry S, …, Urbaniak K
+  venue: npj Systems Biology and Applications
+  details: 12(1):22
+  kind: article
+  doi: 10.1038/s41540-026-00656-9
+  blog_posts:
+  - site: Mathematical Oncology blog
+    title: The future of mathematical oncology in the age of AI
+    url: https://mathematical-oncology.org/blog/future-of-math-oncology
+- year: 2025
+  date: '2025-06-26'
+  title: The adaptive state determines the impact of mutations on evolving populations
+  authors: Tyczynska Weh M, Kumar P, Marusyk V, Marusyk A, Basanta D
+  venue: Proceedings of the National Academy of Sciences
+  details: 122(26):e2427070122
+  kind: article
+  doi: 10.1073/pnas.2427070122
+  preprints:
+  - server: bioRxiv
+    url: https://doi.org/10.1101/2024.12.11.627972
+- year: 2024
+  date: '2024-06-29'
+  title: Dissecting the Spatially Restricted Effects of Microenvironment-Mediated Resistance on Targeted Therapy Responses
+  authors: Miti T, Desai B, Miroshnychenko D, Basanta D, Marusyk A
+  venue: Cancers
+  details: 16(13):2405
+  kind: article
+  doi: 10.3390/cancers16132405
+- year: 2024
+  date: '2024-05-01'
+  title: A seven‐step guide to spatial, agent‐based modelling of tumour evolution
+  authors: Colyer B, Bak M, Basanta D, Noble R
+  venue: Evolutionary Applications
+  details: 17(5):e13687
+  kind: article
+  doi: 10.1111/eva.13687
+  preprints:
+  - server: arXiv
+    url: https://arxiv.org/abs/2311.03569
+- year: 2024
+  date: '2024-03-19'
+  title: The bone ecosystem facilitates multiple myeloma relapse and the evolution of heterogeneous drug resistant disease
+  authors: Bishop RT, Miller AK, Froid M, Nerlakanti N, Li T, Frieling JS, …, Basanta D
+  venue: Nature Communications
+  details: 15(1):2458
+  kind: article
+  doi: 10.1038/s41467-024-46594-0
+  preprints:
+  - server: bioRxiv
+    url: https://doi.org/10.1101/2022.11.13.516335
+  blog_posts:
+  - site: Mathematical Oncology blog
+    title: The importance of homeostasis
+    url: https://mathematical-oncology.org/blog/importance-of-homeostasis
+- year: 2023
+  date: '2023-10-04'
+  title: Stroma-Mediated Breast Cancer Cell Proliferation Indirectly Drives Chemoresistance by Accelerating Tumor Recovery between Chemotherapy Cycles
+  authors: Miroshnychenko D, Miti T, Kumar P, Miller A, Laurie M, Giraldo N, Bui MM, Altrock PM, Basanta D, Marusyk A
+  venue: Cancer Research
+  details: 83(22):3681–3692
+  kind: article
+  doi: 10.1158/0008-5472.can-23-0398
+  preprints:
+  - server: bioRxiv
+    url: https://doi.org/10.1101/2023.02.07.527543
+- year: 2023
+  date: '2023-03-23'
+  title: 'A survey of open questions in adaptive therapy: Bridging mathematics and clinical translation'
+  authors: West J, Adler F, Gallaher J, Strobl M, Brady-Nicholls R, Brown J, Robertson-Tessi M, Kim E, Noble R, Viossat Y, Basanta D, Anderson AR
+  venue: eLife
+  details: 12:e84263
+  kind: article
+  doi: 10.7554/elife.84263
+  preprints:
+  - server: arXiv
+    url: https://arxiv.org/abs/2210.12062
+- year: 2022
+  date: '2022-05-13'
+  title: Integrated computational and in vivo models reveal Key Insights into macrophage behavior during bone healing
+  authors: Baratchart E, Lo CH, Lynch CC, Basanta D
+  venue: PLOS Computational Biology
+  details: 18(5):e1009839
+  kind: article
+  doi: 10.1371/journal.pcbi.1009839
+  preprints:
+  - server: bioRxiv
+    url: https://doi.org/10.1101/2021.12.09.471980
+- year: 2022
+  date: '2022-04-18'
+  title: Roadmap on plasticity and epigenetics in cancer
+  authors: Foo J, Basanta D, Rockne RC, Strelez C, Shah C, Ghaffarian K, …, Anderson ARA
+  venue: Physical Biology
+  details: 19(3):031501
+  kind: article
+  doi: 10.1088/1478-3975/ac4ee2
+- year: 2021
+  date: '2021-09-29'
+  title: Coexistence of “Cream Skimmer” and “Crumb Picker” Phenotypes in Nature and in Cancer
+  authors: Huntly N, Freischel AR, Miller AK, Lloyd MC, Basanta D, Brown JS
+  venue: Frontiers in Ecology and Evolution
+  details: 9:697618
+  kind: article
+  doi: 10.3389/fevo.2021.697618
+- year: 2021
+  date: '2021-07-15'
+  title: The Evolutionary Ecology of Dormancy in Nature and in Cancer
+  authors: Miller AK, Brown JS, Enderling H, Basanta D, Whelan CJ
+  venue: Frontiers in Ecology and Evolution
+  details: 9:676802
+  kind: article
+  doi: 10.3389/fevo.2021.676802
+- year: 2021
+  date: '2021-05-28'
+  title: 'Cancer immunoediting: A game theoretical approach'
+  authors: Tavakoli F, Sartakhti JS, Manshaei MH, Basanta D
+  venue: In Silico Biology
+  details: 14(1-2):1–12
+  kind: article
+  doi: 10.3233/isb-200475
+- year: 2021
+  date: '2021-03-15'
+  title: Computational modeling reveals a key role for polarized myeloid cells in controlling osteoclast activity during bone injury repair
+  authors: Lo CH, Baratchart E, Basanta D, Lynch CC
+  venue: Scientific Reports
+  details: 11(1):6055
+  kind: article
+  doi: 10.1038/s41598-021-84888-1
+  preprints:
+  - server: bioRxiv
+    url: https://doi.org/10.1101/2020.10.13.338335
+- year: 2021
+  date: '2021-02-08'
+  title: Quantification and Optimization of Standard-of-Care Therapy to Delay the Emergence of Resistant Bone Metastatic Prostate Cancer
+  authors: Araujo A, Cook LM, Frieling JS, Tan W, Copland JA, Kohli M, Gupta S, Dhillon J, Pow-Sang J, Lynch CC, Basanta D
+  venue: Cancers
+  details: 13(4):677
+  kind: article
+  doi: 10.3390/cancers13040677
+  blog_posts:
+  - site: Mathematical Oncology blog
+    title: 'Treating metastatic prostate cancer: from the hackathon to the bedside'
+    url: https://mathematical-oncology.org/blog/treating-metastatic-prostate-cancer
+- year: 2021
+  date: '2021-01-18'
+  title: Spontaneous cell fusions as a mechanism of parasexual recombination in tumour cell populations
+  authors: Miroshnychenko D, Baratchart E, Ferrall-Fairbanks MC, Vander Velde R, Laurie MA, Bui MM, Tan AC, Altrock PM, Basanta D, Marusyk A
+  venue: Nature Ecology & Evolution
+  details: 5(3):379–391
+  kind: article
+  doi: 10.1038/s41559-020-01367-y
+  preprints:
+  - server: bioRxiv
+    url: https://doi.org/10.1101/2020.03.09.984419
+- year: 2021
+  date: '2021-01-01'
+  title: Selection-driven tumor evolution with public goods leads to patterns of clonal expansion consistent with neutral growth
+  authors: Edwards J, Marusyk A, Basanta D
+  venue: iScience
+  details: 24(1):101901
+  kind: article
+  doi: 10.1016/j.isci.2020.101901
+  preprints:
+  - server: bioRxiv
+    url: https://doi.org/10.1101/2020.02.11.944843
+- year: 2020
+  date: '2020-08-27'
+  title: Evidence for hypoxia increasing the tempo of evolution in glioblastoma
+  authors: Grimes DR, Jansen M, Macauley RJ, Scott JG, Basanta D
+  venue: British Journal of Cancer
+  details: 123(10):1562–1569
+  kind: article
+  doi: 10.1038/s41416-020-1021-5
+  preprints:
+  - server: bioRxiv
+    url: https://doi.org/10.1101/293712
+  blog_posts:
+  - site: Mathematical Oncology blog
+    title: Oxygen, metabolism and cancer
+    url: https://mathematical-oncology.org/blog/oxygen-metabolism-cancer
+- year: 2020
+  date: '2020-07-22'
+  title: 'Modeling Osteocyte Network Formation: Healthy and Cancerous Environments'
+  authors: Taylor-King JP, Buenzli PR, Chapman SJ, Lynch CC, Basanta D
+  venue: Frontiers in Bioengineering and Biotechnology
+  details: 8:757
+  kind: article
+  doi: 10.3389/fbioe.2020.00757
+  preprints:
+  - server: bioRxiv
+    url: https://doi.org/10.1101/729046
+- year: 2020
+  date: '2020-07-01'
+  title: 'High School Internship Program in Integrated Mathematical Oncology (HIP IMO): Five-Year Experience at Moffitt Cancer Center'
+  authors: Enderling H, Altrock PM, Andor N, Basanta D, Brown JS, Gatenby RA, Marusyk A, Rejniak KA, Silva A, Anderson ARA
+  venue: Bulletin of Mathematical Biology
+  details: 82(7):91
+  kind: article
+  doi: 10.1007/s11538-020-00768-1
+  preprints:
+  - server: bioRxiv
+    url: https://doi.org/10.1101/2020.02.27.967950
+- year: 2020
+  date: '2020-07-01'
+  title: What Is the Storage Effect, Why Should It Occur in Cancers, and How Can It Inform Cancer Therapy?
+  authors: Miller AK, Brown JS, Basanta D, Huntly N
+  venue: Cancer Control
+  details: 27(3):1073274820941968
+  kind: article
+  doi: 10.1177/1073274820941968
+  preprints:
+  - server: bioRxiv
+    url: https://doi.org/10.1101/2020.03.28.013557
+- year: 2020
+  date: '2020-05-11'
+  title: Stromal reactivity differentially drives tumour cell evolution and prostate cancer progression
+  authors: Frankenstein Z, Basanta D, Franco OE, Gao Y, Javier RA, Strand DW, Lee M, Hayward SW, Ayala G, Anderson ARA
+  venue: Nature Ecology & Evolution
+  details: 4(6):870–884
+  kind: article
+  doi: 10.1038/s41559-020-1157-y
+  preprints:
+  - server: bioRxiv
+    url: https://doi.org/10.1101/159616
+  blog_posts:
+  - site: CancerEvo blog
+    title: What drives prostate cancer evolution?
+    url: https://cancerevo.wordpress.com/2017/08/27/what-drives-prostate-cancer-evolution/
+- year: 2020
+  date: '2020-03-10'
+  title: 'Hybrid Automata Library: A flexible platform for hybrid modeling with real-time visualization'
+  authors: Bravo RR, Baratchart E, West J, Schenck RO, Miller AK, Gallaher J, Gatenbee CD, Basanta D, Robertson-Tessi M, Anderson ARA
+  venue: PLOS Computational Biology
+  details: 16(3):e1007635
+  kind: article
+  doi: 10.1371/journal.pcbi.1007635
+  preprints:
+  - server: bioRxiv
+    url: https://doi.org/10.1101/411538
+- year: 2019
+  date: '2019-02-18'
+  title: Fibroblasts and alectinib switch the evolutionary games played by non-small cell lung cancer
+  authors: Kaznatcheev A, Peacock J, Basanta D, Marusyk A, Scott JG
+  venue: Nature Ecology & Evolution
+  details: 3(3):450–456
+  kind: article
+  doi: 10.1038/s41559-018-0768-z
+  preprints:
+  - server: bioRxiv
+    url: https://doi.org/10.1101/179259
+- year: 2019
+  date: '2018-02-14'
+  title: Simulated ablation for detection of cells impacting paracrine signalling in histology analysis
+  authors: Taylor-King JP, Baratchart E, Dhawan A, Coker EA, Rye IH, Russnes H, Chapman SJ, Basanta D, Marusyk A
+  venue: 'Mathematical Medicine and Biology: A Journal of the IMA'
+  details: 36(1):93–112
+  kind: article
+  doi: 10.1093/imammb/dqx022
+  preprints:
+  - server: arXiv
+    url: https://arxiv.org/abs/1704.04454
+- year: 2018
+  date: '2018-04-26'
+  title: Bifurcation Mechanism Design—From Optimal Flat Taxes to Better Cancer Treatments
+  authors: Yang G, Basanta D, Piliouras G
+  venue: Games
+  details: 9(2):21
+  kind: article
+  doi: 10.3390/g9020021
+  preprints:
+  - server: arXiv
+    url: https://arxiv.org/abs/1704.08754
+- year: 2018
+  date: '2018-04-23'
+  title: Fractionated Follow-Up Chemotherapy Delays the Onset of Resistance in Bone Metastatic Prostate Cancer
+  authors: Warman PI, Kaznatcheev A, Araujo A, Lynch CC, Basanta D
+  venue: Games
+  details: 9(2):19
+  kind: article
+  doi: 10.3390/g9020019
+  preprints:
+  - server: bioRxiv
+    url: https://doi.org/10.1101/274704
+- year: 2018
+  date: '2018-03-29'
+  title: 'Size Matters: Metastatic Cluster Size and Stromal Recruitment in the Establishment of Successful Prostate Cancer to Bone Metastases'
+  authors: Araujo A, Cook LM, Lynch CC, Basanta D
+  venue: Bulletin of Mathematical Biology
+  details: 80(5):1046–1058
+  kind: article
+  doi: 10.1007/s11538-018-0416-4
+  preprints:
+  - server: bioRxiv
+    url: https://doi.org/10.1101/235911
+  blog_posts:
+  - site: CancerEvo blog
+    title: 'Size Matters: metastatic cluster size and stromal recruitment'
+    url: https://cancerevo.wordpress.com/2017/12/20/size-matters-metastatic-cluster-size-and-stromal-recruitment-in-the-establishment-of-successful-prostate-cancer-to-bone-metastases/
+- year: 2018
+  date: '2018-01-01'
+  title: Testing Three Hypotheses of the Contribution of Geometry and Migration Dynamics to Intestine Crypt Evolution
+  authors: Araujo A, Rübben A, Bentley PJ, Basanta D
+  venue: The 2018 Conference on Artificial Life
+  details: pp. 420–427
+  kind: proceedings
+  doi: 10.1162/isal_a_00080
+- year: 2017
+  date: '2017-08-01'
+  title: The Influence of Cellular Characteristics on the Evolution of Shape Homeostasis
+  authors: Gerlee P, Basanta D, Anderson ARA
+  venue: Artificial Life
+  details: 23(3):424–448
+  kind: article
+  doi: 10.1162/artl_a_00240
+  preprints:
+  - server: arXiv
+    url: https://arxiv.org/abs/1512.02474
+- year: 2017
+  date: '2017-07-05'
+  title: Mean-field approach to evolving spatial networks, with an application to osteocyte network formation
+  authors: Taylor-King JP, Basanta D, Chapman SJ, Porter MA
+  venue: Physical Review E
+  details: 96(1):012301
+  kind: article
+  doi: 10.1103/physreve.96.012301
+  preprints:
+  - server: arXiv
+    url: https://arxiv.org/abs/1702.00759
+- year: 2017
+  date: '2017-04-11'
+  title: Evolutionary emergence of angiogenesis in avascular tumors using a spatial public goods game
+  authors: Salimi Sartakhti J, Manshaei MH, Basanta D, Sadeghi M
+  venue: PLOS ONE
+  details: 12(4):e0175063
+  kind: article
+  doi: 10.1371/journal.pone.0175063
+- year: 2017
+  date: '2017-03-13'
+  title: 'Homeostasis Back and Forth: An Ecoevolutionary Perspective of Cancer'
+  authors: Basanta D, Anderson ARA
+  venue: Cold Spring Harbor Perspectives in Medicine
+  details: 7(9):a028332
+  kind: article
+  doi: 10.1101/cshperspect.a028332
+  preprints:
+  - server: bioRxiv
+    url: https://doi.org/10.1101/092023
+- year: 2017
+  date: '2017-02-09'
+  title: Cancer treatment scheduling and dynamic heterogeneity in social dilemmas of tumour acidity and vasculature
+  authors: Kaznatcheev A, Vander Velde R, Scott JG, Basanta D
+  venue: British Journal of Cancer
+  details: 116(6):785–792
+  kind: article
+  doi: 10.1038/bjc.2017.5
+  preprints:
+  - server: bioRxiv
+    url: https://doi.org/10.1101/067488
+  - server: arXiv
+    url: https://arxiv.org/abs/1608.00985
+- year: 2016
+  date: '2016-07-14'
+  title: Predictive computational modeling to define effective treatment strategies for bone metastatic prostate cancer
+  authors: Cook LM, Araujo A, Pow-Sang JM, Budzevich MM, Basanta D, Lynch CC
+  venue: Scientific Reports
+  details: 6(1):29384
+  kind: article
+  doi: 10.1038/srep29384
+  blog_posts:
+  - site: CancerEvo blog
+    title: 'New publication: using integrated computational modeling to improve treatment of metastatic prostate cancer'
+    url: https://cancerevo.wordpress.com/2016/07/24/new-publication-using-integrated-computational-modeling-to-improve-treatment-of-metastatic-prostate-cancer/
+- year: 2015
+  date: '2015-07-01'
+  title: Edge effects in game-theoretic dynamics of spatially structured tumours
+  authors: Kaznatcheev A, Scott JG, Basanta D
+  venue: Journal of The Royal Society Interface
+  details: 12(108):20150154
+  kind: article
+  doi: 10.1098/rsif.2015.0154
+  preprints:
+  - server: bioRxiv
+    url: https://doi.org/10.1101/014233
+  - server: arXiv
+    url: https://arxiv.org/abs/1307.6914
+  blog_posts:
+  - site: CancerEvo blog
+    title: Boundaries and evolutionary dynamics in cancer
+    url: https://cancerevo.wordpress.com/2015/06/03/boundaries-and-evolutionary-dynamics-in-cancer/
+- year: 2015
+  date: '2015-01-01'
+  title: Current and Emerging Therapies for Bone Metastatic Castration-Resistant Prostate Cancer
+  authors: Frieling JS, Basanta D, Lynch CC
+  venue: Cancer Control
+  details: 22(1):109–120
+  kind: article
+  doi: 10.1177/107327481502200114
+- year: 2014
+  date: '2014-08-31'
+  title: Improving treatment strategies for patients with metastatic castrate resistant prostate cancer through personalized computational modeling
+  authors: Gallaher J, Cook LM, Gupta S, Araujo A, Dhillon J, Park JY, Scott JG, Pow-Sang J, Basanta D, Lynch CC
+  venue: Clinical & Experimental Metastasis
+  details: 31(8):991–999
+  kind: article
+  doi: 10.1007/s10585-014-9674-1
+  blog_posts:
+  - site: CancerEvo blog
+    title: Using mathematical biology to rationalise and personalise cancer treatments
+    url: https://cancerevo.wordpress.com/2014/09/06/using-mathematical-biology-to-rationalise-and-personalise-cancer-treatments/
+- year: 2014
+  date: '2014-08-07'
+  title: 'Evolutionary game theory: molecules as players'
+  authors: Bohl K, Hummert S, Werner S, Basanta D, Deutsch A, Schuster S, Theißen G, Schroeter A
+  venue: Molecular BioSystems
+  details: 10(12):3066–3074
+  kind: article
+  doi: 10.1039/c3mb70601j
+- year: 2014
+  date: '2014-08-07'
+  title: 'Evolutionary game theory: cells as players'
+  authors: Hummert S, Bohl K, Basanta D, Deutsch A, Werner S, Theißen G, Schroeter A, Schuster S
+  venue: Molecular BioSystems
+  details: 10(12):3044–3065
+  kind: article
+  doi: 10.1039/c3mb70602h
+- year: 2014
+  date: '2014-06-01'
+  title: Invasion and proliferation kinetics in enhancing gliomas predict IDH1 mutation status
+  authors: Baldock AL, Yagle K, Born DE, Ahn S, Trister AD, Neal M, …, Basanta D, …, Swanson KR
+  venue: Neuro-Oncology
+  details: 16(6):779–786
+  kind: article
+  doi: 10.1093/neuonc/nou027
+- year: 2014
+  date: '2014-04-30'
+  title: An Integrated Computational Model of the Bone Microenvironment in Bone-Metastatic Prostate Cancer
+  authors: Araujo A, Cook LM, Lynch CC, Basanta D
+  venue: Cancer Research
+  details: 74(9):2391–2401
+  kind: article
+  doi: 10.1158/0008-5472.can-13-2652
+  blog_posts:
+  - site: CancerEvo blog
+    title: A relatively complex model of prostate cancer to bone metastases
+    url: https://cancerevo.wordpress.com/2014/03/12/a-relatively-complex-model-of-prostate-cancer-to-bone-metastases/
+- year: 2014
+  date: '2014-01-16'
+  title: Microenvironmental Variables Must Influence Intrinsic Phenotypic Parameters of Cancer Stem Cells to Affect Tumourigenicity
+  authors: Scott JG, Hjelmeland AB, Chinnaiyan P, Anderson ARA, Basanta D
+  venue: PLoS Computational Biology
+  details: 10(1):e1003433
+  kind: article
+  doi: 10.1371/journal.pcbi.1003433
+  preprints:
+  - server: bioRxiv
+    url: https://doi.org/10.1101/000141
+  blog_posts:
+  - site: CancerEvo blog
+    title: Get it while it is still fresh! A mathematical model of stem cell-driven tumourigenesis
+    url: https://cancerevo.wordpress.com/2014/01/17/get-it-while-it-is-still-fresh-a-mathematical-model-of-stem-cell-driven-tumourigenesis/
+- year: 2013
+  date: '2013-12-01'
+  title: 'Senescent Fibroblasts in Melanoma Initiation and Progression: An Integrated Theoretical, Experimental, and Clinical Approach'
+  authors: Kim E, Rebecca V, Fedorenko IV, Messina JL, Mathew R, Maria-Engler SS, Basanta D, Smalley KSM, Anderson ARA
+  venue: Cancer Research
+  details: 73(23):6874–6885
+  kind: article
+  doi: 10.1158/0008-5472.can-13-1720
+  preprints:
+  - server: arXiv
+    url: https://arxiv.org/abs/1304.1054
+- year: 2013
+  date: '2013-08-06'
+  title: Exploiting ecological principles to better understand cancer progression and treatment
+  authors: Basanta D, Anderson ARA
+  venue: Interface Focus
+  details: 3(4):20130020
+  kind: article
+  doi: 10.1098/rsfs.2013.0020
+  preprints:
+  - server: arXiv
+    url: https://arxiv.org/abs/1305.2249
+  blog_posts:
+  - site: CancerEvo blog
+    title: Exploiting ecological principles to better understand cancer progression and treatment
+    url: https://cancerevo.wordpress.com/2013/07/08/exploiting-ecological-principles-to-better-understand-cancer-progression-and-treatment/
+- year: 2013
+  date: '2013-05-06'
+  title: A mathematical model of tumour self-seeding reveals secondary metastatic deposits as drivers of primary tumour growth
+  authors: Scott JG, Basanta D, Anderson ARA, Gerlee P
+  venue: Journal of The Royal Society Interface
+  details: 10(82):20130011
+  kind: article
+  doi: 10.1098/rsif.2013.0011
+  preprints:
+  - server: arXiv
+    url: https://arxiv.org/abs/1205.5182
+- year: 2013
+  date: '2013-01-01'
+  title: Mathematical Modeling of the Metastatic Process
+  authors: Scott JG, Gerlee P, Basanta D, Fletcher AG, Maini PK, Anderson ARA
+  venue: 'Experimental Metastasis: Modeling and Analysis'
+  details: pp. 189–208
+  kind: chapter
+  doi: 10.1007/978-94-007-7835-1_9
+  preprints:
+  - server: arXiv
+    url: https://arxiv.org/abs/1305.4622
+  blog_posts:
+  - site: CancerEvo blog
+    title: Studying metastasis with mathematics
+    url: https://cancerevo.wordpress.com/2014/02/03/studying-metastasis-with-mathematics/
+- year: 2012
+  date: '2012-03-19'
+  title: 'Exploiting Evolution To Treat Drug Resistance: Combination Therapy and the Double Bind'
+  authors: Basanta D, Gatenby RA, Anderson ARA
+  venue: Molecular Pharmaceutics
+  details: 9(4):914–921
+  kind: article
+  doi: 10.1021/mp200458e
+- year: 2012
+  date: '2011-12-01'
+  title: 'Investigating prostate cancer tumour–stroma interactions: clinical and biological insights from an evolutionary game'
+  authors: Basanta D, Scott JG, Fishman MN, Ayala G, Hayward SW, Anderson ARA
+  venue: British Journal of Cancer
+  details: 106(1):174–181
+  kind: article
+  doi: 10.1038/bjc.2011.517
+  preprints:
+  - server: arXiv
+    url: https://arxiv.org/abs/1108.0654
+- year: 2012
+  date: '2010-07-07'
+  title: '''Go or Grow'': the key to the emergence of invasion in tumour progression?'
+  authors: Hatzikirou H, Basanta D, Simon M, Schaller K, Deutsch A
+  venue: Mathematical Medicine and Biology
+  details: 29(1):49–65
+  kind: article
+  doi: 10.1093/imammb/dqq011
+- year: 2011
+  date: '2011-08-01'
+  title: Evolving homeostatic tissue using genetic algorithms
+  authors: Gerlee P, Basanta D, Anderson ARA
+  venue: Progress in Biophysics and Molecular Biology
+  details: 106(2):414–425
+  kind: article
+  doi: 10.1016/j.pbiomolbio.2011.03.004
+- year: 2011
+  date: '2011-07-22'
+  title: 'Production of 2-hydroxyglutarate by isocitrate dehydrogenase 1-mutated gliomas: an evolutionary alternative to the Warburg shift?'
+  authors: Scott JG, Basanta D, Chinnaiyan P, Canoll P, Swanson KR, Anderson ARA
+  venue: Neuro-Oncology
+  details: 13(12):1262–1264
+  kind: article
+  doi: 10.1093/neuonc/nor083
+- year: 2011
+  date: '2011-02-01'
+  title: 'The role of IDH1 mutated tumour cells in secondary glioblastomas: an evolutionary game theoretical view'
+  authors: Basanta D, Scott JG, Rockne R, Swanson KR, Anderson ARA
+  venue: Physical Biology
+  details: 8(1):015016
+  kind: article
+  doi: 10.1088/1478-3975/8/1/015016
+- year: 2011
+  date: '2011-01-01'
+  title: Computational analysis of the influence of the microenvironment on carcinogenesis
+  authors: Basanta D, Ribba B, Watkin E, You B, Deutsch A
+  venue: Mathematical Biosciences
+  details: 229(1):22–29
+  kind: article
+  doi: 10.1016/j.mbs.2010.10.005
+- year: 2010
+  date: '2010-12-08'
+  title: Evolution, Regulation and Disruption of Homeostasis and Its Role in Carcinogenesis
+  authors: Anderson A, Basanta D, Gerlee P, Rejniak K
+  venue: Multiscale Cancer Modeling (Chapman & Hall/CRC Mathematical & Computational Biology)
+  details: pp. 1–30
+  kind: chapter
+  doi: 10.1201/b10407-2
+- year: 2010
+  date: '2010-02-01'
+  title: Perspectives on Tissue Interactions in Development and Disease
+  authors: Strand D, Franco O, Basanta D, Anderson A, Hayward S
+  venue: Current Molecular Medicine
+  details: 10(1):95–112
+  kind: article
+  doi: 10.2174/156652410791065363
+- year: 2009
+  date: '2009-11-11'
+  title: Microenvironmental Independence Associated with Tumor Progression
+  authors: Anderson ARA, Hassanein M, Branch KM, Lu J, Lobdell NA, Maier J, …, Basanta D, …, Weaver AM
+  venue: Cancer Research
+  details: 69(22):8797–8806
+  kind: article
+  doi: 10.1158/0008-5472.can-09-0437
+- year: 2009
+  date: '2009-08-31'
+  title: 'The Role of Transforming Growth Factor-β–Mediated Tumor-Stroma Interactions in Prostate Cancer Progression: An Integrative Approach'
+  authors: Basanta D, Strand DW, Lukner RB, Franco OE, Cliffel DE, Ayala GE, Hayward SW, Anderson ARA
+  venue: Cancer Research
+  details: 69(17):7111–7120
+  kind: article
+  doi: 10.1158/0008-5472.can-08-3957
+- year: 2008
+  date: '2008-11-18'
+  title: Evolutionary game theory elucidates the role of glycolysis in glioma progression and invasion
+  authors: Basanta D, Simon M, Hatzikirou H, Deutsch A
+  venue: Cell Proliferation
+  details: 41(6):980–987
+  kind: article
+  doi: 10.1111/j.1365-2184.2008.00563.x
+  preprints:
+  - server: arXiv
+    url: https://arxiv.org/abs/0810.4732
+  blog_posts:
+  - site: Mathematical Oncology blog
+    title: Oxygen, metabolism and cancer
+    url: https://mathematical-oncology.org/blog/oxygen-metabolism-cancer
+- year: 2008
+  date: '2008-06-01'
+  title: Studying the emergence of invasiveness in tumours using game theory
+  authors: Basanta D, Hatzikirou H, Deutsch A
+  venue: The European Physical Journal B
+  details: 63(3):393–397
+  kind: article
+  doi: 10.1140/epjb/e2008-00249-y
+  preprints:
+  - server: arXiv
+    url: https://arxiv.org/abs/0810.4724
+  blog_posts:
+  - site: CancerEvo blog
+    title: More on game theory and the evolution of invasive phenotypes
+    url: https://cancerevo.wordpress.com/2013/07/07/more-on-game-theory-and-the-evolution-of-invasive-phenotypes/
+- year: 2008
+  date: '2008-03-28'
+  title: The Evolution of Robust Development and Homeostasis in Artificial Organisms
+  authors: Basanta D, Miodownik M, Baum B
+  venue: PLoS Computational Biology
+  details: 4(3):e1000030
+  kind: article
+  doi: 10.1371/journal.pcbi.1000030
+- year: 2008
+  date: '2008-01-01'
+  title: A Game Theoretical Perspective on the Somatic Evolution of cancer
+  authors: Basanta D, Deutsch A
+  venue: Selected Topics in Cancer Modeling (Modeling and Simulation in Science, Engineering and Technology)
+  details: pp. 1–16
+  kind: chapter
+  doi: 10.1007/978-0-8176-4713-1_5
+  preprints:
+  - server: arXiv
+    url: https://arxiv.org/abs/0810.4738
+- year: 2005
+  date: '2005-07-01'
+  title: Using genetic algorithms to evolve three-dimensional microstructures from two-dimensional micrographs
+  authors: Basanta D, Miodownik MA, Holm EA, Bentley PJ
+  venue: Metallurgical and Materials Transactions A
+  details: 36(7):1643–1652
+  kind: article
+  doi: 10.1007/s11661-005-0026-2
+- year: 2004
+  date: '2004-10-15'
+  title: Evolving 3D Microstructures Using a Genetic Algorithm
+  authors: Basanta D, Miodownik MA, Holm EA, Bentley PJ
+  venue: Materials Science Forum
+  details: 467-470:1019–1024
+  kind: article
+  doi: 10.4028/www.scientific.net/msf.467-470.1019
+- year: 2004
+  date: '2004-01-01'
+  title: Evolving and growing microstructures of materials using biologically inspired CA
+  authors: Basanta D, Bentley PJ, Miodownik MA, Holm EA
+  venue: Proceedings. 2004 NASA/DoD Conference on Evolvable Hardware
+  details: pp. 275–282
+  kind: proceedings
+  doi: 10.1109/eh.2004.1310841
+- year: 2003
+  date: '2003-01-01'
+  title: Evolving Cellular Automata to Grow Microstructures
+  authors: Basanta D, Bentley PJ, Miodownik MA, Holm EA
+  venue: Genetic Programming (Lecture Notes in Computer Science)
+  details: pp. 1–10
+  kind: chapter
+  doi: 10.1007/3-540-36599-0_1
