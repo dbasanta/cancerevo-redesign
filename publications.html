@@ -1,7 +1,12 @@
 ---
 layout: default
 title: Publications
-description: Published papers, reviews and book chapters by David Basanta and the CancerEvo Group, with links to preprints and blog posts about the work.
+description: Published papers, reviews and book chapters by David Basanta and the CancerEvo Group, each with a short summary and links to preprints and blog posts about the work.
+themes:
+  bone: { label: "Bone marrow ecosystem", url: "/research/#bone-marrow", c: "#D9483B", ink: "#B8362B" }
+  stroma: { label: "Stromal niches", url: "/research/#stromal-niches", c: "#B0418F", ink: "#B0418F" }
+  selection: { label: "Selection", url: "/research/#selection", c: "#E58A1F", ink: "#9E560A" }
+  methods: { label: "Methods", url: "/research/#methods-heading", c: "#2E9655", ink: "#23794A" }
 ---
 {%- assign pubs = site.data.publications -%}
 {%- assign years = pubs | group_by: "year" -%}
@@ -9,7 +14,7 @@ description: Published papers, reviews and book chapters by David Basanta and th
   <header class="page-intro">
     <p class="eyebrow">Publications</p>
     <h1>Published work.</h1>
-    <p class="lede">{{ pubs.size }} peer-reviewed articles, reviews and book chapters, newest first. Each title links to the published paper. Where we posted a preprint, it is linked alongside, and so is any blog post about the work.</p>
+    <p class="lede">{{ pubs.size }} peer-reviewed articles, reviews and book chapters, newest first, each with a short summary. Each title links to the published paper. Where we posted a preprint, it is linked alongside, and so is any blog post about the work. Tags link to the matching theme on the <a href="{{ '/research/' | relative_url }}">Research</a> page.</p>
   </header>
 
   <nav class="year-index" aria-label="Jump to year">
@@ -28,6 +33,9 @@ description: Published papers, reviews and book chapters by David Basanta and th
           <h3><a href="https://doi.org/{{ p.doi }}">{{ p.title }}</a></h3>
           <p class="pub-authors">{{ p.authors | escape | replace: "Basanta D", "<strong>Basanta D</strong>" }}</p>
           <p class="pub-venue"><em>{{ p.venue | escape }}</em>{% if p.details != "" %} {{ p.details | escape }}{% endif %}{% if p.kind == "chapter" %}<span class="pub-kind">Book chapter</span>{% elsif p.kind == "proceedings" %}<span class="pub-kind">Conference paper</span>{% endif %}</p>
+          {%- if p.summary %}
+          <p class="pub-summary">{{ p.summary | escape }}</p>
+          {%- endif %}
           <ul class="pub-links">
             <li><a href="https://doi.org/{{ p.doi }}">Paper</a></li>
             {%- for pp in p.preprints %}
@@ -36,6 +44,9 @@ description: Published papers, reviews and book chapters by David Basanta and th
             {%- for b in p.blog_posts %}
             <li><a href="{{ b.url }}" title="{{ b.title | escape }}">Blog post <span class="pub-src">{{ b.site }}</span></a></li>
             {%- endfor %}
+            {%- if p.theme %}{% assign t = page.themes[p.theme] %}
+            <li class="pub-theme"><a href="{{ t.url | relative_url }}" style="--c: {{ t.c }}; --c-ink: {{ t.ink }}">{{ t.label }}</a></li>
+            {%- endif %}
           </ul>
         </li>
         {%- endfor %}
