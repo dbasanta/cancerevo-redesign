@@ -1189,7 +1189,7 @@ li + li {
 
 .tile:hover span,
 .tile:focus-visible span {
-    color: var(--c);
+    color: var(--c-ink, var(--c));
 }
 
 @media (max-width: 700px) {
@@ -1220,4 +1220,101 @@ li + li {
 
 .preview-banner a {
     color: inherit;
+}
+
+/* Research themes */
+.theme-overview {
+    margin-bottom: clamp(8px, 2vw, 16px);
+}
+
+.theme-card {
+    display: block;
+    color: var(--ink);
+    text-decoration: none;
+    transition: border-color 150ms ease;
+}
+
+.theme-card::before {
+    margin-bottom: 18px;
+    color: var(--c-ink, var(--c));
+}
+
+.theme-card .tile-icon {
+    display: block;
+    width: 100%;
+    max-width: 210px;
+    height: auto;
+    margin: 0 0 18px;
+}
+
+.theme-card:hover,
+.theme-card:focus-visible {
+    border-color: var(--c);
+}
+
+.theme-card:hover h3,
+.theme-card:focus-visible h3 {
+    color: var(--c-ink, var(--c));
+}
+
+.research-programme.with-icon {
+    grid-template-columns: 150px minmax(0, 1fr) minmax(230px, 0.36fr);
+    scroll-margin-top: 24px;
+}
+
+.programme-mark .tile-icon {
+    display: block;
+    width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.research-programme.with-icon .programme-number,
+.research-programme.with-icon .programme-copy h3,
+.programme-treatment strong {
+    color: var(--c-ink, var(--c));
+}
+
+.research-programme.with-icon .programme-evidence {
+    border-top-color: var(--c);
+}
+
+.programme-evidence ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.programme-evidence li + li {
+    margin-top: 14px;
+}
+
+.programme-evidence li span {
+    display: block;
+    margin-top: 2px;
+    color: var(--muted);
+    font-size: 0.82rem;
+}
+
+@media (max-width: 900px) {
+    .research-programme.with-icon {
+        grid-template-columns: 1fr;
+    }
+
+    .programme-mark .tile-icon {
+        max-width: 180px;
+    }
+
+    .programme-evidence {
+        grid-column: 1;
+    }
+
+    .theme-card {
+        min-height: 0;
+    }
+
+    .theme-card .tile-icon {
+        max-width: 150px;
+        margin-bottom: 12px;
+    }
 }
