@@ -7,6 +7,7 @@ description: The CancerEvo Group develops mathematical and computational models 
 <section class="home-intro">
   <h1 class="home-title">CancerEvo</h1>
   <p class="home-sub">Cancer ecology &amp; evolution</p>
+  <p class="home-affil"><a href="{{ site.imo_url }}" target="_blank" rel="noopener noreferrer">Integrated Mathematical Oncology</a> &middot; <a href="{{ site.moffitt_url }}" target="_blank" rel="noopener noreferrer">Moffitt Cancer Center</a></p>
 </section>
 
 <svg class="svg-defs" aria-hidden="true"><defs>
@@ -34,9 +35,5 @@ description: The CancerEvo Group develops mathematical and computational models 
   <a class="tile" href="{{ '/outreach' | relative_url }}" style="--c: #1592A6">
     {% include icons/outreach.svg %}
     <span>Outreach</span>
-  </a>
-  <a class="tile" href="{{ '/news' | relative_url }}" style="--c: #2F5AB4">
-    {% include icons/news.svg %}
-    <span>News</span>
   </a>
 </nav>

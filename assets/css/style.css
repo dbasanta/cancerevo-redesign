@@ -857,6 +857,10 @@ li + li {
     font-weight: 700;
 }
 
+.institution-inner p a {
+    color: inherit;
+}
+
 .moffitt-logo {
     display: block;
     width: 212px;
@@ -1131,6 +1135,21 @@ li + li {
     font-style: italic;
 }
 
+.home-affil {
+    margin: 10px 0 0;
+    color: var(--muted);
+    font-size: 0.95rem;
+}
+
+.home-affil a {
+    color: inherit;
+    white-space: nowrap;
+}
+
+.home-affil a:hover {
+    color: var(--ink);
+}
+
 .svg-defs {
     position: absolute;
     width: 0;
@@ -1138,8 +1157,9 @@ li + li {
 }
 
 .icon-grid {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
     gap: 34px 40px;
     width: min(calc(100% - 40px), var(--max-width));
     margin: 0 auto;
@@ -1147,6 +1167,7 @@ li + li {
 }
 
 .tile {
+    flex: 0 0 calc((100% - 80px) / 3);
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -1173,10 +1194,13 @@ li + li {
 
 @media (max-width: 700px) {
     .icon-grid {
-        grid-template-columns: repeat(2, 1fr);
         gap: 28px 14px;
         width: calc(100% - 24px);
         padding: 28px 0 48px;
+    }
+
+    .tile {
+        flex-basis: calc((100% - 14px) / 2);
     }
 
     .tile span {

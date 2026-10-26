@@ -6,6 +6,8 @@ baseurl: "/cancerevo-redesign"   # repository name; GitHub serves project sites 
 logo: /assets/images/favicon.svg
 
 # Author information
+moffitt_url: https://www.moffitt.org/
+imo_url: https://www.moffitt.org/research-science/divisions-and-departments/quantitative-science/integrated-mathematical-oncology/
 author:
   name: David Basanta Gutierrez
   email: david@cancerevo.org
