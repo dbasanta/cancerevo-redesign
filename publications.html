@@ -14,7 +14,7 @@ themes:
   <header class="page-intro">
     <p class="eyebrow">Publications</p>
     <h1>Published work.</h1>
-    <p class="lede">{{ pubs.size }} peer-reviewed articles, reviews and book chapters, newest first, each with a short summary. Each title links to the published paper. Where we posted a preprint, it is linked alongside, and so is any blog post about the work. Tags link to the matching theme on the <a href="{{ '/research/' | relative_url }}">Research</a> page.</p>
+    <p class="lede">{{ pubs.size }} peer-reviewed articles, reviews and book chapters, newest first, each with a short summary. Each title links to the published paper. Where we posted a preprint, it is linked alongside, and so is any blog post about the work. Names in bold are members of the group, past and present (see <a href="{{ '/team/' | relative_url }}">Team</a>); tags link to the matching theme on the <a href="{{ '/research/' | relative_url }}">Research</a> page.</p>
   </header>
 
   <nav class="year-index" aria-label="Jump to year">
@@ -31,7 +31,8 @@ themes:
         {%- for p in y.items %}
         <li class="pub-entry">
           <h3><a href="https://doi.org/{{ p.doi }}">{{ p.title }}</a></h3>
-          <p class="pub-authors">{{ p.authors | escape | replace: "Basanta D", "<strong>Basanta D</strong>" }}</p>
+          {%- assign names = p.authors | split: ", " %}
+          <p class="pub-authors">{% for a in names %}{% if p.group_authors contains a %}<strong>{{ a | escape }}</strong>{% else %}<span>{{ a | escape }}</span>{% endif %}{% unless forloop.last %}, {% endunless %}{% endfor %}</p>
           <p class="pub-venue"><em>{{ p.venue | escape }}</em>{% if p.details != "" %} {{ p.details | escape }}{% endif %}{% if p.kind == "chapter" %}<span class="pub-kind">Book chapter</span>{% elsif p.kind == "proceedings" %}<span class="pub-kind">Conference paper</span>{% endif %}</p>
           {%- if p.summary %}
           <p class="pub-summary">{{ p.summary | escape }}</p>

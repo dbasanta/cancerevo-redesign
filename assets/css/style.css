@@ -1478,6 +1478,11 @@ li + li {
     font-weight: 750;
 }
 
+.pub-authors strong,
+.pub-authors span {
+    white-space: nowrap;   /* never split a name across lines */
+}
+
 .pub-kind {
     margin-left: 10px;
     padding: 1px 7px;
