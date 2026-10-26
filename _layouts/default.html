@@ -19,7 +19,8 @@
             <a href="{{ '/' | relative_url }}" class="logo" aria-label="CancerEvo home">
                 <img src="{{ '/assets/images/cancerevo-logo-nav.svg' | relative_url }}" alt="CancerEvo" class="nav-logo" width="400" height="120">
             </a>
-            <ul class="nav-links">
+            <button class="nav-toggle" type="button" aria-label="Menu" aria-expanded="false" aria-controls="site-nav" hidden></button>
+            <ul class="nav-links" id="site-nav">
                 {% for item in site.navigation %}
                 {% assign item_url_slash = item.url | append: '/' %}
                 <li><a href="{{ item.url | relative_url }}" {% if page.url == item.url or page.url == item_url_slash %}class="active" aria-current="page"{% endif %}>{{ item.title }}</a></li>
@@ -27,6 +28,18 @@
             </ul>
         </nav>
     </header>
+    <script>
+        // Phones: collapse the navigation behind the menu button. Without JavaScript the links stay visible.
+        (function () {
+            var button = document.querySelector('.nav-toggle'), links = document.getElementById('site-nav');
+            if (!button || !links) return;
+            button.hidden = false;
+            document.documentElement.classList.add('has-nav-toggle');
+            function set(open) { button.setAttribute('aria-expanded', String(open)); links.classList.toggle('is-open', open); }
+            button.addEventListener('click', function () { set(button.getAttribute('aria-expanded') !== 'true'); });
+            document.addEventListener('keydown', function (e) { if (e.key === 'Escape') set(false); });
+        })();
+    </script>
 
     <main id="main-content" class="site-main">
         {{ content }}

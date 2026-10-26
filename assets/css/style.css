@@ -1259,7 +1259,7 @@ li + li {
 
 .research-programme.with-icon {
     grid-template-columns: 150px minmax(0, 1fr) minmax(230px, 0.36fr);
-    scroll-margin-top: 24px;
+    scroll-margin-top: 96px;   /* clears the sticky header */
 }
 
 .programme-mark .tile-icon {
@@ -1316,5 +1316,76 @@ li + li {
     .theme-card .tile-icon {
         max-width: 150px;
         margin-bottom: 12px;
+    }
+}
+
+/* Contact section on the About page */
+.contact-section {
+    padding: clamp(56px, 8vw, 96px) 0;
+    border-top: 1px solid var(--line);
+    scroll-margin-top: 96px;
+}
+
+/* Menu button: phones only, and only when JavaScript is available */
+.nav-toggle {
+    display: none;
+    width: 44px;
+    height: 44px;
+    padding: 0;
+    border: 0;
+    border-radius: var(--radius-sm);
+    background:
+        linear-gradient(#fff 0 0) center calc(50% - 7px) / 24px 2.5px no-repeat,
+        linear-gradient(#fff 0 0) center / 24px 2.5px no-repeat,
+        linear-gradient(#fff 0 0) center calc(50% + 7px) / 24px 2.5px no-repeat;
+    cursor: pointer;
+}
+
+.nav-toggle[aria-expanded="true"] {
+    background-color: rgba(255, 255, 255, 0.12);
+}
+
+@media (max-width: 720px) {
+    .has-nav-toggle .nav-shell {
+        display: flex;
+        flex-wrap: wrap;
+        padding-top: 0;
+    }
+
+    .has-nav-toggle .nav-toggle {
+        display: block;
+    }
+
+    .has-nav-toggle .nav-links {
+        display: none;
+        flex-basis: 100%;
+        flex-direction: column;
+        align-items: stretch;
+        gap: 0;
+        margin: 0;
+        padding: 0 0 14px;
+        overflow: visible;
+    }
+
+    .has-nav-toggle .nav-links.is-open {
+        display: flex;
+    }
+
+    .has-nav-toggle .nav-links > li {
+        display: block;
+    }
+
+    .has-nav-toggle .nav-links a {
+        width: 100%;
+        min-height: 44px;
+        padding: 0;
+        font-size: 0.82rem;
+        border-top: 1px solid rgba(255, 255, 255, 0.1);
+    }
+
+    .has-nav-toggle .nav-links a::after {
+        right: auto;
+        bottom: 10px;
+        width: 28px;
     }
 }

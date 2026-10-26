@@ -32,4 +32,8 @@ description: The CancerEvo Group develops mathematical and computational models 
     {% include icons/evolutionary-game.svg %}
     <span>Outreach</span>
   </a>
+  <a class="tile" href="{{ '/about' | relative_url }}" style="--c: #2F5AB4; --c-ink: #2F5AB4">
+    {% include icons/evolutionary-rescue.svg %}
+    <span>About</span>
+  </a>
 </nav>
